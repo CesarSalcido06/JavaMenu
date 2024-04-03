@@ -19,7 +19,7 @@ public class CreateFile{
     void create() {
        try {
         File myObj;
-        myObj = new File("/Users/CesarSalcido/Desktop/JavaPrograms/" + input + ".txt");
+        myObj = new File("placeholder" + input + ".txt"); //input path
         System.out.println("Successfully wrote to the file.");
         if (myObj.createNewFile()) {
             System.out.println("File created: " + myObj.getName());
