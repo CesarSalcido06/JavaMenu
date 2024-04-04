@@ -20,7 +20,7 @@ public class ReadFiles{
         String content = "";
         try
         {
-            content = new String ( Files.readAllBytes( Paths.get("/Users/CesarSalcido/Desktop/JavaPrograms/"+ inputRead +".txt") ) );
+            content = new String ( Files.readAllBytes( Paths.get("C:\User"+ inputRead +".txt") ) ); //specify path
         }
         catch (IOException e)
         {
