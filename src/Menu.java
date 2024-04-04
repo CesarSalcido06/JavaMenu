@@ -35,7 +35,7 @@ public class Menu implements ActionListener {
         frame.setLayout(new GridBagLayout());
         GridBagConstraints gridb = new GridBagConstraints();
         //
-        Image img = Toolkit.getDefaultToolkit().getImage("/Users/CesarSalcido/Desktop/JavaPrograms/BlackDog.png");
+        Image img = Toolkit.getDefaultToolkit().getImage("C:\User\Desktop\image.png"); //specify path
         frame.setContentPane(new JPanel(){
             @Override
             public void paintComponent(Graphics g){
