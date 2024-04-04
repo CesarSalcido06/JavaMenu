@@ -26,7 +26,7 @@ public class WriteFile{
 
     void write() {
         try {
-            FileWriter myWriter = new FileWriter("/Users/CesarSalcido/Desktop/JavaPrograms/" + filename + ".txt");
+            FileWriter myWriter = new FileWriter("C:\User\" + filename + ".txt"); //specify path
             myWriter.write(inputTwo);
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
